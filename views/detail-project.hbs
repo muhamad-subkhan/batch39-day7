@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Project</title>
+    <link rel="icon" href="assets/images/logo.png">
+
+    {{!-- BOOTSTRAP --}}
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    {{!-- FONT AWESOME --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    {{!-- CSS --}}
+    <link rel="stylesheet" href="/public/assets/css/detail.css">
+
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg sticky-lg-top navbar-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse px-3" id="navbarTogglerDemo01">
+                <a href="/">
+                    <img class="navbar-brand navLogo" src="public/assets/images/logo.png"></img>
+                </a>
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="navbar-brand home mx-2" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item fw-normal ms-2">
+                        <a class="navbar-brand addProject" aria-current="page" href="/add-project">Add Project</a>
+                    </li>
+                </ul>
+                <a class="btn d-flex" href="/contact-me">
+                    <button class="btn contactMe btn-dark px-4 py-1">Contact Me</button>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="detail">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="title-dProject text-center fw-bold my-5">title Project</h2>
+                    <div class="card-dProject">
+                        <div class="col card-project d-flex">
+
+                            <div class="col-sm-7 bg-dark">
+                                <img src="/public/assets/images/kucing.webp" alt="" class="card-img">
+                            </div>
+
+                            <div class="col-sm-3 ms-5">
+                                <div class="duration">
+                                    <h3>Duration</h3>
+                                    <p class="date-dt"><i class="fa-solid fa-calendar-days me-3"></i>11 jan 2022 - 15 feb 2022</p>
+                                    <p class="duration-dt"><i class="fa-regular fa-clock  me-3"></i>1 bulan 4 hari</p>
+                                </div>
+                                <div class="icon-tech mt-5">
+                                    <h3>Technologies</h3>
+                                    <div class="tech-dt d-flex">
+
+                                        <div>
+                                            <p class="node fs-4"><i class="fa-brands fa-node-js me-3"></i>Node Js</p>
+                                            <p class="react fs-4"><i class="fa-brands fa-react me-3"></i>React Js</p>
+                                        </div>
+                                        <div>
+                                            <p class="golang fs-4 ms-5"><i class="fa-brands fa-golang me-3"></i>Golang</p>
+                                            <p class="angular fs-4 ms-5"><i class="fa-brands fa-angular me-3"></i>Angular</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                        <div class="rows-cols-12">
+                            <p class="dt-content mt-5">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo doloribus laboriosam inventore sunt obcaecati! Adipisci dolorum cumque rerum eius iste inventore porro commodi dolores deserunt optio, dolor animi facere laborum?
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam magnam consectetur placeat sit. Repudiandae sunt explicabo omnis hic laboriosam dicta modi maxime, commodi laudantium in repellat voluptatibus saepe natus veniam.
+                            </p>
+                        </div>
+
+        </div>
+    </section>
+</body>
+
+</html>
